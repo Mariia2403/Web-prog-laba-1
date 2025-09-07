@@ -1,0 +1,35 @@
+*
+{
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+ background-color:#F08080;
+ color: white;
+ border-bottom: 5px solid #8B0000;
+ width: 100%;
+ padding: 30px;
+ text-align: center;
+ height: 100px;
+}
+
+header ::before
+{
+  content: "the_";
+  color: #8B0000;
+  text-shadow: #FFFFE0 1px 0px 7px;
+}
+
+header ::after
+{
+content: "_site";
+color: #8B0000;
+text-shadow: #FFFFE0 1px 0px 7px;
+}
+
+
+
